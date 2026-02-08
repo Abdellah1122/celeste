@@ -5,31 +5,25 @@ import { Button } from '@/components/ui/button'
 import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 
-export default function RetailHubPage() {
+export default function ServicesHubPage() {
     const projects = [
         {
-            title: "Cosmetics Store",
-            desc: "L'Éclat de la Beauté. Gestion des teintes, eCommerce de marque et stocks sensibles.",
-            link: "/solutions/retail/cosmetics",
-            image: "https://placehold.co/1920x1080/EAEAEA/1B3C53/png?text=Cosmetics+Preview"
+            title: "Développement Spécifique",
+            desc: "L'Excellence du Code. Web Apps, Mobile (Flutter) et Modules Odoo custom.",
+            link: "/services/custom-development",
+            image: "https://placehold.co/1920x1080/EAEAEA/1B3C53/png?text=Dev+Preview"
         },
         {
-            title: "Furniture Store",
-            desc: "Design Logistique. Click & Collect, articles volumineux et inventaire précis.",
-            link: "/solutions/retail/furniture",
-            image: "https://placehold.co/1920x1080/1B3C53/F5F5F0/png?text=Furniture+Preview"
+            title: "Digital Marketing",
+            desc: "L'Art de la Visibilité. SEO/SEA, Identité Visuelle et Growth Hacking.",
+            link: "/services/digital-marketing",
+            image: "https://placehold.co/1920x1080/1B3C53/F5F5F0/png?text=Marketing+Preview"
         },
         {
-            title: "Auto Spare Parts",
-            desc: "Mécanique de Précision. Compatibilité véhicules, OEM/EAN et portail B2B.",
-            link: "/solutions/retail/automotive",
-            image: "https://placehold.co/1920x1080/F5F5F0/1B3C53/png?text=Auto+Parts+Preview"
-        },
-        {
-            title: "Pharmacy Retail",
-            desc: "Santé & Conformité. Gestion des lots, alertes péremption et historique légal.",
-            link: "/solutions/retail/pharmacy",
-            image: "https://placehold.co/1920x1080/EAEAEA/1B3C53/png?text=Pharmacy+Preview"
+            title: "Accompagnement Conseil",
+            desc: "Stratégie IT & Transformation. Audit, DSI externalisé et Conduite du Changement.",
+            link: "/services/consulting",
+            image: "https://placehold.co/1920x1080/F5F5F0/1B3C53/png?text=Consulting+Preview"
         }
     ]
 
@@ -40,20 +34,20 @@ export default function RetailHubPage() {
             <section className="relative pt-32 pb-20 px-6 md:px-12 max-w-[1920px] mx-auto">
                 <div className="max-w-4xl">
                     <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#1B3C53]/40 mb-6 block">
-                        Solutions  Retail
+                        Céleste  Services
                     </span>
                     <h1 className="text-6xl md:text-8xl font-serif text-[#1B3C53] mb-8 leading-[0.9]">
-                        Retail & <br /><span className="italic opacity-60">Distribution</span>
+                        Ingénierie & <br /><span className="italic opacity-60">Services</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
-                        Une suite unifiée pour maîtriser la complexité du commerce moderne. Pharma, Cosmétique, Luxe et Mobilier.
+                        Au-delà des produits, une expertise technique et stratégique pour propulser votre croissance.
                     </p>
                 </div>
             </section>
 
             {/* Projects Grid */}
             <section className="px-6 md:px-12 pb-32 max-w-[1920px] mx-auto">
-                <div className="grid md:grid-cols-2 gap-px bg-[#1B3C53]/10 border border-[#1B3C53]/10">
+                <div className="grid md:grid-cols-3 gap-px bg-[#1B3C53]/10 border border-[#1B3C53]/10">
                     {projects.map((project, i) => (
                         <Link key={i} href={project.link} className="group block bg-white hover:bg-[#F5F5F0] transition-colors relative overflow-hidden h-[500px] flex flex-col">
                             <div className="p-12 flex-1 relative z-10">
