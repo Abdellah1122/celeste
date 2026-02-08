@@ -21,7 +21,7 @@ export default function FoodDistributionPage() {
                     </p>
                 </div>
                 <div className="w-full aspect-[16/9] relative shadow-2xl overflow-hidden bg-[#1B3C53]/5">
-                    <img src="https://placehold.co/1920x1080/1B3C53/FFFFFF/png?text=Food+Logistics+System" className="w-full h-full object-cover" alt="Food Distribution" />
+                    <img src="\disthero.png" className="w-full h-full object-cover" alt="Food Distribution" />
                 </div>
             </section>
 

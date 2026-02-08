@@ -19,7 +19,7 @@ export default function RealEstateAgencyPage() {
                     </p>
                 </div>
                 <div className="w-full aspect-[16/9] relative shadow-2xl overflow-hidden bg-[#1B3C53]/5">
-                    <img src="https://placehold.co/1920x1080/EAEAEA/1B3C53/png?text=Real+Estate+CRM" className="w-full h-full object-cover" alt="Real Estate Agency" />
+                    <img src="\realhero.png" className="w-full h-full object-cover" alt="Real Estate Agency" />
                 </div>
             </section>
 

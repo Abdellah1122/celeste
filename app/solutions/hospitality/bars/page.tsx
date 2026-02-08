@@ -21,7 +21,7 @@ export default function BarsPage() {
                     </p>
                 </div>
                 <div className="w-full aspect-[16/9] relative shadow-2xl overflow-hidden bg-[#1B3C53]/5">
-                    <img src="https://placehold.co/1920x1080/EAEAEA/1B3C53/png?text=Bar+Management+System" className="w-full h-full object-cover grayscale-[10%]" alt="Bar Management" />
+                    <img src="\barhero.png" className="w-full h-full object-cover grayscale-[10%]" alt="Bar Management" />
                 </div>
             </section>
 

@@ -21,7 +21,7 @@ export default function HMSPage() {
                     </p>
                 </div>
                 <div className="w-full aspect-[16/9] relative shadow-2xl overflow-hidden bg-[#1B3C53]/5">
-                    <img src="https://placehold.co/1920x1080/EAEAEA/1B3C53/png?text=HMS+Dashboard" className="w-full h-full object-cover" alt="HMS Interface" />
+                    <img src="\hotelhero.png" className="w-full h-full object-cover" alt="HMS Interface" />
                 </div>
             </section>
 
