@@ -43,7 +43,7 @@ export default function HospitalityHubPage() {
                         Solutions  Hospitality
                     </span>
                     <h1 className="text-6xl md:text-8xl font-serif text-[#1B3C53] mb-8 leading-[0.9]">
-                        Hôtellerie & <br /><span className="italic opacity-60">Restauration</span>
+                        Hôtellerie &amp; <br /><span className="italic opacity-60">Restauration</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
                         Un écosystème unifié pour Hôtels, Fine Dining et Nightlife. Découvrez nos modules spécialisés ci-dessous.

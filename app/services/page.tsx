@@ -37,7 +37,7 @@ export default function ServicesHubPage() {
                         Céleste  Services
                     </span>
                     <h1 className="text-6xl md:text-8xl font-serif text-[#1B3C53] mb-8 leading-[0.9]">
-                        Ingénierie & <br /><span className="italic opacity-60">Services</span>
+                        Ingénierie &amp; <br /><span className="italic opacity-60">Services</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
                         Au-delà des produits, une expertise technique et stratégique pour propulser votre croissance.

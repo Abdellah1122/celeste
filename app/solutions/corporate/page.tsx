@@ -25,7 +25,7 @@ export default function CorporateHubPage() {
                         Solutions  Corporate
                     </span>
                     <h1 className="text-6xl md:text-8xl font-serif text-[#1B3C53] mb-8 leading-[0.9]">
-                        Corporate & <br /><span className="italic opacity-60">Finance</span>
+                        Corporate &amp; <br /><span className="italic opacity-60">Finance</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
                         Des solutions robustes pour cabinets comptables et fiduciaires.

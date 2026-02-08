@@ -34,10 +34,10 @@ export default function WellnessHubPage() {
             <section className="relative pt-32 pb-20 px-6 md:px-12 max-w-[1920px] mx-auto">
                 <div className="max-w-4xl">
                     <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#1B3C53]/40 mb-6 block">
-                Solutions > Wellness
+                        Solutions Wellness
                     </span>
                     <h1 className="text-6xl md:text-8xl font-serif text-[#1B3C53] mb-8 leading-[0.9]">
-                        Services & <br /><span className="italic opacity-60">Wellness</span>
+                        Services &amp; <br /><span className="italic opacity-60">Wellness</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
                         Des outils spécialisés pour les activités de service, de la beauté au sport.

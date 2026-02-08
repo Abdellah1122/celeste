@@ -37,7 +37,7 @@ export default function RealEstateHubPage() {
                         Solutions  Real Estate
                     </span>
                     <h1 className="text-6xl md:text-8xl font-serif text-[#1B3C53] mb-8 leading-[0.9]">
-                        Real Estate & <br /><span className="italic opacity-60">Construction</span>
+                        Real Estate &amp; <br /><span className="italic opacity-60">Construction</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
                         De la promotion à la gestion locative. Une suite complète pour les professionnels de l'immobilier.
