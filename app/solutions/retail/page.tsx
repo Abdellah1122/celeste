@@ -46,7 +46,7 @@ export default function RetailHubPage() {
                         Retaill &amp; <br /><span className="italic opacity-60">Distribution</span>
                     </h1>
                     <p className="text-xl text-[#1B3C53]/60 max-w-2xl font-light leading-relaxed mb-12">
-                        Une suite unifiée pour maîtriser la complexité du commerce moderne. Pharma, Cosmétique, Luxe et Mobilier.
+                        Une suite unifiée pour maîtriser la complexité du commerce moderne. Pharma, Cosmétique, Luxe et Mobilier..
                     </p>
                 </div>
             </section>
