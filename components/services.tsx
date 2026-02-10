@@ -5,7 +5,7 @@ const services = [
   {
     title: 'Direction Artistique',
     description: 'Une identité visuelle qui capture l\'essence de votre marque.',
-    href: '/solutions/hospitality'
+    href: '/portfolio'
   },
   {
     title: 'Développement Web',

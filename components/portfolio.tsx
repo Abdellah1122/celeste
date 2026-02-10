@@ -4,41 +4,45 @@ import { ArrowRight } from 'lucide-react'
 
 const projects = [
   {
-    title: 'Maison Archi',
-    category: 'Architecture',
-    image: 'https://placehold.co/800x1200/F5F5F0/1B3C53/png?text=Architecture+Project',
-    colSpan: 'md:col-span-1',
-    aspect: 'aspect-[3/4]'
+    title: 'Céleste RH',
+    category: 'Système RH Stratégique',
+    image: '/celest-rh.png',
+    colSpan: 'md:col-span-3',
+    aspect: 'aspect-[16/9]',
+    link: '/solutions/rh-solution'
   },
   {
-    title: 'Galerie Noire',
-    category: 'Art Digital',
-    image: 'https://placehold.co/1200x800/E3E3E3/234C6A/png?text=Digital+Art+Gallery',
+    title: 'Céleste Hôtellerie',
+    category: 'Gestion Hôtelière Avancée',
+    image: '/celeste-hotel.png',
     colSpan: 'md:col-span-2',
-    aspect: 'aspect-[16/9]'
+    aspect: 'aspect-[16/9]',
+    link: '/solutions/hospitality'
   },
   {
-    title: 'Tech Future',
-    category: 'Innovation',
-    image: 'https://placehold.co/1000x1000/FFFFFF/1B3C53/png?text=Tech+Innovation',
+    title: 'Céleste Caisse',
+    category: 'Point de Vente Retail',
+    image: '/celest-retail.png',
     colSpan: 'md:col-span-1',
-    aspect: 'aspect-square'
+    aspect: 'aspect-[3/4]',
+    link: '/solutions/retail-pos'
   },
   {
-    title: 'Luxe & Co',
-    category: 'Retail',
-    image: 'https://placehold.co/800x1200/F0F0F0/1B3C53/png?text=Luxury+Retail',
+    title: 'Céleste Salon',
+    category: 'Spa & Salon de Beauté',
+    image: '/salon11.png',
     colSpan: 'md:col-span-1',
-    aspect: 'aspect-[3/4]'
+    aspect: 'aspect-[3/4]',
+    link: '/solutions/beauty-spa'
   },
   {
-    title: 'Studio Blanc',
-    category: 'Branding',
-    image: 'https://placehold.co/1000x1000/F5F5F0/1B3C53/png?text=Studio+Branding',
-    colSpan: 'md:col-span-1',
-    aspect: 'aspect-square'
-  },
-]
+    title: 'Céleste Restauration',
+    category: 'Restaurants & Bars',
+    image: '/celest-resto.png',
+    colSpan: 'md:col-span-2',
+    aspect: 'aspect-[16/9]',
+    link: '/solutions/restaurant'
+  },]
 
 export function Portfolio() {
   return (
@@ -46,12 +50,10 @@ export function Portfolio() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-24">
           <div>
-            <span className="text-xs uppercase tracking-[0.3em] opacity-50 mb-4 block">Sélection</span>
-            <h2 className="text-6xl md:text-7xl font-serif">Projets Récents</h2>
+            <span className="text-xs uppercase tracking-[0.3em] opacity-50 mb-4 block">CÉLESTE</span>
+            <h2 className="text-6xl md:text-7xl font-serif">Nos Solutions</h2>
           </div>
-          <Link href="/solutions/retail" className="hidden md:flex items-center gap-2 text-sm uppercase tracking-widest hover:opacity-60 transition-opacity">
-            Voir tout le portfolio <ArrowRight className="w-4 h-4" />
-          </Link>
+
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -70,17 +72,14 @@ export function Portfolio() {
                   <h3 className="text-2xl font-serif mb-1">{project.title}</h3>
                   <span className="text-xs uppercase tracking-widest opacity-50">{project.category}</span>
                 </div>
-                <ArrowRight className="w-5 h-5 opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+                <a href={project.link} ><ArrowRight className="w-5 h-5 opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" /></a>
+
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 md:hidden text-center">
-          <Link href="/solutions/retail" className="inline-flex items-center gap-2 text-sm uppercase tracking-widest border-b border-[#1B3C53] pb-1">
-            Voir tout le portfolio <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
+
       </div>
     </section>
   )

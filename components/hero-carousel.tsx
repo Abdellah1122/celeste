@@ -12,25 +12,25 @@ const SLIDES = [
     {
         image: "img1.jpg",
         title: "CÉLESTE",
-        subtitle: "L'Art de la Technologie",
-        description: "Une fusion entre esthétique minimaliste et ingénierie de pointe."
+        subtitle: "EXPERTISE ODOO TECHNO-FONCTIONNELLE",
+        description: "L'alliance parfaite entre maîtrise technique et intelligence d'affaires. Des solutions ERP certifiées, conçues pour la performance."
     },
     {
         image: "img2.jpg",
-        title: "INNOVATION",
-        subtitle: "Au-delà du Code",
-        description: "Des solutions digitales qui redéfinissent les standards de l'industrie."
+        title: "FLUIDITÉ",
+        subtitle: "PERFORMANCE ABSOLUE",
+        description: "Une navigation instantanée, libérée des lenteurs traditionnelles. Vos outils de gestion deviennent aussi rapides que votre pensée."
     },
     {
         image: "img3.jpg",
         title: "ÉLÉGANCE",
-        subtitle: "Design Système Unifié",
-        description: "Chaque pixel est pensé pour servir votre image de marque."
+        subtitle: "INTERFACE SUR MESURE",
+        description: "Sortez des standards du marché. Nous concevons des environnements digitaux exclusifs, fluides et parfaitement alignés avec votre identité."
     }
 ]
 
 export function HeroCarousel() {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, duration: 20 }, [Autoplay({ delay: 5000 }) as any, Fade() as any])
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, duration: 10 }, [Autoplay({ delay: 5000 }) as any, Fade() as any])
     const [selectedIndex, setSelectedIndex] = useState(0)
     const [scrollSnaps, setScrollSnaps] = useState<number[]>([])
 
