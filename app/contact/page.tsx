@@ -28,7 +28,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <span className="text-xs text-[#1B3C53]/40 uppercase tracking-widest block mb-1">Email</span>
-                                <span className="text-lg">hello@celeste.com</span>
+                                <span className="text-lg">abdellahjorf4@gmail.com</span>
                             </div>
                         </div>
                         <div className="flex items-center gap-6 group cursor-pointer">
@@ -37,7 +37,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <span className="text-xs text-[#1B3C53]/40 uppercase tracking-widest block mb-1">Téléphone</span>
-                                <span className="text-lg">+33 1 23 45 67 89</span>
+                                <span className="text-lg">+212 6 75 24 22 83</span>
                             </div>
                         </div>
                         <div className="flex items-center gap-6 group cursor-pointer">
@@ -46,7 +46,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <span className="text-xs text-[#1B3C53]/40 uppercase tracking-widest block mb-1">Bureau</span>
-                                <span className="text-lg">Paris, France</span>
+                                <span className="text-lg">Casablanca, Maroc</span>
                             </div>
                         </div>
                     </div>
@@ -75,9 +75,12 @@ export default function ContactPage() {
                         </div>
 
                         <div className="flex items-center justify-between pt-8">
-                            <Link href="https://wa.me/33123456789" className="text-xs uppercase tracking-widest text-[#1B3C53]/40 hover:text-[#1B3C53] transition-colors flex items-center gap-2">
-                                WhatsApp Rapide <ArrowRight className="w-4 h-4" />
-                            </Link>
+
+                            <Button size="lg" className="rounded-none bg-[green] text-white hover:bg-[darkgreen]/90 px-12 py-6 text-xs uppercase tracking-widest">
+                                <Link href="https://wa.me/33123456789" >
+                                    WhatsApp Rapide
+                                </Link>
+                            </Button>
                             <Button size="lg" className="rounded-none bg-[#1B3C53] text-white hover:bg-[#1B3C53]/90 px-12 py-6 text-xs uppercase tracking-widest">
                                 Envoyer
                             </Button>

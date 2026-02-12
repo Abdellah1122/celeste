@@ -21,7 +21,7 @@ export default function RestaurantPage() {
                     </p>
                 </div>
                 <div className="w-full max-w-6xl mx-auto aspect-[16/9] relative shadow-2xl overflow-hidden rounded-sm bg-gray-100">
-                    <img src="/celest-resto.png" className="w-full h-full object-cover" alt="Céleste Restaurant POS" />
+                    <img src="/celest-resto.png" alt="Céleste Restaurant POS" />
                 </div>
             </section>
 
@@ -144,22 +144,23 @@ export default function RestaurantPage() {
             </section>
 
             {/* CTA SECTION */}
-            <section className="py-24 bg-white text-center">
-                <div className="max-w-3xl mx-auto px-6">
-                    <h2 className="text-4xl md:text-5xl font-serif text-[#1B3C53] mb-8">Passez à la vitesse supérieure</h2>
-                    <p className="text-[#1B3C53]/60 mb-10 text-lg">
-                        Optimisez votre service et maximisez vos marges avec la solution restaurant Céleste.
+            <section className="py-24 bg-[#1B3C53] text-center text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-[url('/noise.png')] opacity-10 mix-blend-overlay"></div>
+                <div className="max-w-3xl mx-auto px-6 relative z-10">
+                    <h2 className="text-4xl md:text-5xl font-serif mb-8">Passez à la vitesse supérieure</h2>
+                    <p className="text-white/60 mb-10 text-lg font-light">
+                        Optimisez votre service et maximisez vos marges avec la solution Céleste Restauration.
                     </p>
                     <div className="flex flex-col md:flex-row justify-center gap-4">
-                        <Button asChild size="lg" className="rounded-none px-8 py-6 text-xs uppercase tracking-widest bg-[#1B3C53] text-white hover:bg-[#1B3C53]/90">
+                        <Button asChild size="lg" className="rounded-none px-10 py-7 text-sm uppercase tracking-widest bg-white text-[#1B3C53] hover:bg-gray-100">
                             <Link href="/contact">Demander une démo</Link>
                         </Button>
-                        <Button asChild size="lg" variant="outline" className="rounded-none px-8 py-6 text-xs uppercase tracking-widest border-[#1B3C53] text-[#1B3C53] hover:bg-[#1B3C53] hover:text-white">
+                        <Button asChild size="lg" className="rounded-none px-10 py-7 text-sm uppercase tracking-widest bg-white text-[#1B3C53] hover:bg-gray-100">
                             <Link href="/contact">Nous Contacter</Link>
                         </Button>
                     </div>
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     )
 }

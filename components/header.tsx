@@ -33,6 +33,9 @@ export function Header() {
               <Link href="/solutions/rh-solution" className="text-sm font-bold uppercase tracking-widest text-[#1B3C53] hover:text-primary transition-colors">
                 Céleste RH
               </Link>
+              <Link href="/solutions/real-estate" className="text-sm font-bold uppercase tracking-widest text-[#1B3C53] hover:text-primary transition-colors">
+                Céleste Immobilier
+              </Link>
               <Link href="/solutions/hospitality" className="text-sm font-bold uppercase tracking-widest text-[#1B3C53] hover:text-primary transition-colors">
                 Céleste Hôtellerie
               </Link>
@@ -45,6 +48,7 @@ export function Header() {
               <Link href="/solutions/restaurant" className="text-sm font-bold uppercase tracking-widest text-[#1B3C53] hover:text-primary transition-colors">
                 Céleste Restauration
               </Link>
+
             </DropdownMenuContent>
           </DropdownMenu>
 
@@ -88,20 +92,17 @@ export function Header() {
             <div className="space-y-6">
               <p className="text-xs uppercase text-muted-foreground mb-4 border-b border-border pb-2">Solutions</p>
               <Link href="/solutions/rh-solution" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Céleste RH</Link>
+              <Link href="/solutions/real-estate" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Céleste Immobilier</Link>
               <Link href="/solutions/hospitality" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Céleste Hôtellerie</Link>
               <Link href="/solutions/retail-pos" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Céleste Caisse</Link>
               <Link href="/solutions/beauty-spa" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Céleste Salon</Link>
               <Link href="/solutions/restaurant" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Céleste Restauration</Link>
 
-              <p className="text-xs uppercase text-muted-foreground mb-4 border-b border-border pb-2 pt-4">Services</p>
-              <Link href="/services/custom-development" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Développement</Link>
-              <Link href="/services/digital-marketing" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Marketing</Link>
-              <Link href="/services/consulting" className="block text-lg font-serif text-foreground/80 pl-4" onClick={() => setIsOpen(false)}>Conseil</Link>
+
             </div>
 
             <div className="space-y-6 pt-6 border-t border-border/50">
               <Link href="/methodology" className="block text-sm uppercase tracking-widest" onClick={() => setIsOpen(false)}>Méthodologie</Link>
-              <Link href="/portfolio" className="block text-sm uppercase tracking-widest" onClick={() => setIsOpen(false)}>Réalisations</Link>
               <Link href="/technology" className="block text-sm uppercase tracking-widest" onClick={() => setIsOpen(false)}>Technologie</Link>
             </div>
 

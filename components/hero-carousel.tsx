@@ -30,7 +30,7 @@ const SLIDES = [
 ]
 
 export function HeroCarousel() {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, duration: 10 }, [Autoplay({ delay: 5000 }) as any, Fade() as any])
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, duration: 15 }, [Autoplay({ delay: 5000 }) as any, Fade() as any])
     const [selectedIndex, setSelectedIndex] = useState(0)
     const [scrollSnaps, setScrollSnaps] = useState<number[]>([])
 
